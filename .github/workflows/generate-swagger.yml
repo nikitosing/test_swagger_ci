@@ -3,13 +3,8 @@ name: Generate OpenAPI Specs
 on:
   push:
     branches:
-      - master
+      - main
       - np-integrate-open-api-spex
-    paths-ignore:
-      - "CHANGELOG.md"
-      - "**/README.md"
-      - "docker/*"
-      - "docker-compose/*"
   workflow_dispatch:
   release:
     types: [published]
